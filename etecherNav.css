@@ -1,0 +1,54 @@
+:root{
+    --grayColor: #E2E2E2;
+    --whiteColor: #F8F8F8;
+    --lightBlueColor: #8FC9F5;
+    --darkBlueColor: #074578;
+}
+
+nav{
+    justify-content: space-evenly;
+    height: 75px;
+}
+
+.navbar{
+    background-color: var(--darkBlueColor);
+}
+
+.navbar img{
+    width: 150px;
+    margin-left: 1rem;
+}
+
+.navbar-nav{
+    margin-left: 3rem;
+}
+
+.nav-link{
+    color: var(--whiteColor);
+    font-size:1.25rem;
+}
+
+.nav-link:hover{
+    color: var(--lightBlueColor);
+    font-size:1.5rem;
+}
+
+.nav-link:focus{
+    color: var(--lightBlueColor);
+}
+
+.btn-outline-primary{
+    --bs-btn-color:var(--whiteColor);
+    --bs-btn-border-color:var(--whiteColor);
+    --bs-btn-hover-color:var(--lightBlueColor);
+    --bs-btn-hover-bg:transparent;
+    --bs-btn-hover-border-color:var(--lightBlueColor);
+    --bs-btn-focus-shadow-rgb:13,110,253;
+    --bs-btn-active-color:var(--whiteColor);    
+    --bs-btn-active-bg:var(--lightBlueColor);
+    --bs-btn-active-border-color:var(--lightBlueColor);
+    --bs-btn-disabled-color:var(--lightBlueColor);
+    --bs-btn-disabled-bg:transparent;
+    --bs-btn-disabled-border-color:var(--lightBlueColor);
+    --bs-gradient:none;
+}
