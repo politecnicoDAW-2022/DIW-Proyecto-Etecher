@@ -1,2 +1,2 @@
 # DIW-Proyecto-etecher
-![](readmeFiles/nav.mp4)
+![navAlejandro](./readmeFiles/nav.mp4)
