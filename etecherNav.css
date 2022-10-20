@@ -5,6 +5,11 @@
     --darkBlueColor: #074578;
 }
 
+body{
+    height: 2000px;
+    background: linear-gradient(var(--grayColor),var(--lightBlueColor));
+}
+
 nav{
     justify-content: space-evenly;
     height: 75px;
@@ -20,12 +25,13 @@ nav{
 }
 
 .navbar-nav{
-    margin-left: 3rem;
+    margin: auto;
 }
 
 .nav-link{
     color: var(--whiteColor);
     font-size:1.25rem;
+    margin-left: 3rem;
 }
 
 .nav-link:hover{
