@@ -14,7 +14,7 @@ Before you do a commit see your branch
 
 If you want to do a commit you need to call it like:
     
-    commit -m "<type-of-commit>(etecher): fileName"
+    git commit -m "<type-of-commit>(etecher): fileName"
 
 In the type of commit you must put some of those options: 
 
@@ -34,3 +34,6 @@ In the type of commit you must put some of those options:
 ## Don't merge until all members are agree
 
 ---
+
+## Etecher pallet color is:
+![](./palette.png)
