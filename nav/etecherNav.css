@@ -3,11 +3,24 @@
     --whiteColor: #F8F8F8;
     --lightBlueColor: #8FC9F5;
     --darkBlueColor: #074578;
+    --regular-font: 'Ubuntu-Regular';
+    --medium-font: 'Ubuntu-Medium';
 }
 
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('./assets/font/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url('./assets/font/Ubuntu-Medium.ttf');
+}
+
+
 body{
-    height: 2000px;
-    background: linear-gradient(var(--grayColor),var(--lightBlueColor));
+    height: 100vh;
+    background: linear-gradient(to top, var(--grayColor),var(--lightBlueColor));
 }
 
 nav{
@@ -32,15 +45,18 @@ nav{
     color: var(--whiteColor);
     font-size:1.25rem;
     margin-left: 3rem;
+    font-family: var(--regular-font);
 }
 
 .nav-link:hover{
     color: var(--lightBlueColor);
     font-size:1.5rem;
+    font-family: var(--medium-font);
 }
 
 .nav-link:focus{
     color: var(--lightBlueColor);
+    font-family: var(--medium-font);
 }
 
 .btn-outline-primary{
@@ -57,4 +73,6 @@ nav{
     --bs-btn-disabled-bg:transparent;
     --bs-btn-disabled-border-color:var(--lightBlueColor);
     --bs-gradient:none;
+    --bs-btn-font-weight: 400;
+    width: 85px;
 }
