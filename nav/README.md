@@ -1,2 +1,2 @@
 # DIW-Proyecto-etecher
-![navAlejandro](./readmeFiles/nav.gif)
+![navAlejandro](./assets/readmeFiles/nav.gif)
