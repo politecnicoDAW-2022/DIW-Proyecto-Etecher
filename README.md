@@ -28,6 +28,14 @@ In the type of commit you must put some of those options:
 
 ### DON,T PUT _".", "..."_ OR _"etc..."_ IN THE COMMIT MESSAGE
 
+To copy all main branch content to your branch put:
+
+    git checkout main .
+
+If you only want an specific file put:
+
+    git checkout main <file name>
+
 ---
 
 ## When you do a commit, inform to the rest
@@ -36,4 +44,4 @@ In the type of commit you must put some of those options:
 ---
 
 ## Etecher pallet color is:
-![](./palette.png)
+![](./assets/img/palette.png)
