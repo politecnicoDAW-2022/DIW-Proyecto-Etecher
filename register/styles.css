@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url("../assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: url("../assets/fonts/Ubuntu-Medium.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +30,7 @@ body {
   margin-top: 100px;
   border-radius: 10px;
   color: white;
+  
 }
 
 
@@ -30,6 +41,7 @@ body {
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid transparent;
+  font-family: 'Ubuntu-Medium';
 }
 
 .form-register input[type=button] {
