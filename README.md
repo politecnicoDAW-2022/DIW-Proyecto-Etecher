@@ -22,7 +22,7 @@ In the type of commit you must put some of those options:
 - fix: Correct a bug that affect the code.
 - perf: Changes that improve performance.
 - docs: Documentation changes.
-- refactor: Refactor of the code that change names of functions or variables.
+- refac: Refactor of the code that change names of functions or variables.
 - style: Changes of the format like spaces, dots or commas
 - test: Add tests.
 
@@ -46,9 +46,6 @@ If you only want an specific file put:
 ## Etecher pallet color is:
 ![](./assets/img/palette.png)
 
-
-
-
-# First first prototype of the home
-![](./assets/img/home1.png)
-![](./assets/img/home2.png)
+## Etecher fonts are:
+- Ubuntu-Medium
+- Ubuntu-Regular
