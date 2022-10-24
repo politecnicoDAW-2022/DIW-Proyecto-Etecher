@@ -45,3 +45,10 @@ If you only want an specific file put:
 
 ## Etecher pallet color is:
 ![](./assets/img/palette.png)
+
+
+
+
+# First first prototype of the home
+![](./assets/img/home1.png)
+![](./assets/img/home2.png)
