@@ -50,3 +50,6 @@ If you only want an specific file put:
 ## Etecher fonts are:
 - Ubuntu-Medium
 - Ubuntu-Regular
+
+## Etecher Home:
+![](./assets/img/etecherhome.jpg)
