@@ -21,7 +21,7 @@ In the type of commit you must put some of those options:
 - feat: Add something new to the project.
 - fix: Correct a bug that affect the code.
 - perf: Changes that improve performance.
-- chore: Changes that not touch gcode.
+- chore: Changes that not touch code.
 - docs: Documentation changes.
 - refac: Refactor of the code that change names of functions or variables.
 - style: Changes of the format like spaces, dots or commas
